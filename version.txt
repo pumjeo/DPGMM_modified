@@ -1,0 +1,4 @@
+This package represents a later version of the DPGMM method with the following features: 
+
+- The random effect term in the mixed-effect model follows a normal distribution with a zero-mean vector and a covariance matrix (1/phi_z_i) * Q_z_i
+- The correlation term in the AR(1) model varies by cluster (k) rather than by individual sample (i) and follows a truncated normal distribution bounded between 0 and 1.
